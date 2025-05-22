@@ -3,7 +3,7 @@ import { Dialog, DialogContent, IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import "./header.css";
 import brochure from "../Header/img/aidfProfile.pdf";
-import aidfLogo from "./img/LOGO.PNG";
+import aidfLogo from "../Header/img/logo.png";
 import axios from "axios";
 import { useFormik } from "formik";
 import { useSearch } from "./SearchContext";

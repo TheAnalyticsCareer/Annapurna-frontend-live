@@ -420,7 +420,7 @@ const ProductCatalog = () => {
     product10: {
       id: 'p10',
       name: "Aluminum Screw On Skirting",
-      price: "₹120 / sq ft",
+      price: "₹450-₹650 /peice",
       image: product10,
            brochure: p11, 
   category: "Skirting",

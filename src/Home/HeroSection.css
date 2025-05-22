@@ -319,7 +319,7 @@
 @media (max-width: 769px) {
     .hs-trust-image {
         height: 5rem;
-        margin-top: -4px;
+        margin-top: 60px;
         width: auto;
 }
 }
@@ -354,7 +354,7 @@
   }
 
   .hs-years-image {
-            margin-top: 22px;
+            margin-top: 93px;
     height: 5rem;
   }
 }
@@ -362,6 +362,7 @@
 
 .hs-trust-image {
     height: 4rem;
+    
     width: auto;
 }
 }
@@ -391,7 +392,7 @@
 
   .hs-years-trust-wrapper {
     position: absolute;
-    top: 0;
+    top: 24px;
     right: 0;
     margin: 20px 0;
   }
@@ -402,7 +403,7 @@
 
   .hs-years-image-wrapper {
     position: absolute;
-    top: 0;
+    top: 24px;
     right: 0;
     text-align: center;
     margin: 20px 0;

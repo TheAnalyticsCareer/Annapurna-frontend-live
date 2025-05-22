@@ -863,7 +863,7 @@ a {
   }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 426px) {
   .mobile_header_container {
     display: flex;
     flex-direction: column;

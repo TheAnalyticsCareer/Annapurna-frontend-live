@@ -4,7 +4,7 @@ import "./Footer.css";
 import linkedIn from "./HomeImg/linkedin.png";
 import facebook from "./HomeImg/facebook.png";
 import twitter from "./HomeImg/twitter-50.png";
-import logo from "../Header/img/logo.png";
+import logo from "../Header/img/logo.PNG";
 
 const Footer = () => {
   const fadeIn = {

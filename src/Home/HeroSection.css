@@ -1,3 +1,36 @@
+.hs-badge {
+  position: absolute;
+  top: 2vw;
+  z-index: 10;
+}
+
+.hs-badge-left {
+  left: 1.5vw;
+}
+
+.hs-badge-right {
+  right: 1.5vw;
+}
+
+.hs-badge-image {
+  width: clamp(50px, 8vw, 100px);
+  height: auto;
+}
+
+/* ✅ Fix for small screens: move badges lower */
+@media (max-width: 426px) {
+  .hs-badge {
+    top: 70px; /* Adjust this value if your header is taller */
+  }
+}
+
+
+
+
+
+
+
+
 /* Hero Section Container */
 .hs-container {
   position: relative;
@@ -187,7 +220,7 @@
 }
 
 /* Years Image */
-.hs-years-image-wrapper {
+/* .hs-years-image-wrapper {
   position: absolute;
   top: 10%;
   right: 20px;
@@ -197,10 +230,10 @@
 .hs-years-image {
   height: 8rem;
   width: auto;
-}
+} */
 
 /* trust Image */
-.hs-years-trust-wrapper {
+/* .hs-years-trust-wrapper {
   position: absolute;
   top: 12%;
   left: 20px;
@@ -210,7 +243,7 @@
 .hs-trust-image {
   height: 6rem;
   width: auto;
-}
+} */
 
 
 
@@ -390,7 +423,7 @@
     height: 1rem;
   }
 
-  .hs-years-trust-wrapper {
+  /* .hs-years-trust-wrapper {
     position: absolute;
     top: 24px;
     right: 0;
@@ -412,7 +445,7 @@
   .hs-years-image {
     height: 5rem;
     margin: 0 auto;
-  }
+  } */
 
    
 

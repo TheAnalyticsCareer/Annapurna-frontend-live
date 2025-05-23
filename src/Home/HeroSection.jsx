@@ -193,13 +193,15 @@ const HeroSection = () => {
         </a>
       </div>
 
-      
-        <div className="hs-years-image-wrapper">
-        <img src={years} alt="15+ Years Excellence" className="hs-years-image" /> 
-      </div>
-      <div className="hs-years-trust-wrapper">
-        <img src={trust} alt="india-mart-trust" className="hs-trust-image" /> 
-      </div>
+     <div className="hs-badge hs-badge-left">
+  <img src={trust} alt="Trust Seal IndiaMART" className="hs-badge-image" />
+</div>
+<div className="hs-badge hs-badge-right">
+  <img src={years} alt="15+ Years of Excellence" className="hs-badge-image" />
+</div>
+
+
+     
     
     </section>
   );

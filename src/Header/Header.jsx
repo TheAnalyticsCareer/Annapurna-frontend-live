@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Dialog, DialogContent, IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import "./header.css";
-import brochure from "../Header/img/aidfProfile.pdf";
+import brochure from "../Header/img/brochure.pdf";
 import aidfLogo from "../Header/img/logo.jpeg";
 import axios from "axios";
 import { useFormik } from "formik";

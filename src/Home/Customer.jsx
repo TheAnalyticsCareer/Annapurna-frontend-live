@@ -80,7 +80,7 @@ const Customer = () => {
   style={{
     color: "#61CE70",
     textAlign: "center",
-    fontSize: "1.9rem",
+    fontSize: "1.6rem",
     fontWeight: "600"
   }}
 >

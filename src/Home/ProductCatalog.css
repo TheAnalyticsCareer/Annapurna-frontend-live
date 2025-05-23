@@ -193,19 +193,27 @@
 }
 
 .product-catalog-more-button {
-  padding: 0.75rem 2rem;
-  background-color: #e63946;
+
+    background-color: #E74C3C;
   color: white;
+  padding: clamp(0.3rem, 0vw, 0.6rem) clamp(1rem, 2vw, 1.5rem);
+  border: none;
   text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  width: fit-content;
+  font-size: clamp(0.8rem, 1vw, 0.95rem);
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .product-catalog-more-button:hover {
-  background-color: #c92a34;
+  
+  background-color: #C0392B;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Modal Styles */
 .product-catalog-modal-overlay {

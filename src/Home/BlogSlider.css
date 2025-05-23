@@ -161,10 +161,13 @@
 .view-all-button {
   background-color: #E74C3C;
   color: white;
-  padding: clamp(0.6rem, 1.2vw, 0.75rem) clamp(1.5rem, 3vw, 2rem);
+  padding: clamp(0.4rem, 1vw, 0.6rem) clamp(1rem, 2vw, 1.5rem);
   border: none;
+  text-decoration: none;
+  font-weight: bold;
   border-radius: 5px;
-  font-size: clamp(0.9rem, 1.2vw, 1rem);
+  width: fit-content;
+  font-size: clamp(0.8rem, 1vw, 0.95rem);
   cursor: pointer;
   transition: all 0.3s ease;
 }

@@ -4,7 +4,7 @@ import "./Footer.css";
 import linkedIn from "./HomeImg/linkedin.png";
 import facebook from "./HomeImg/facebook.png";
 import twitter from "./HomeImg/twitter-50.png";
-import logo from "../Header/img/logo.PNG";
+import logo from "../Header/img/logo.jpeg";
 
 const Footer = () => {
   const fadeIn = {
@@ -115,7 +115,7 @@ const Footer = () => {
             <div className="aidf-text-content">
               <h5 className="aidf-social-title">Connect With Us</h5>
               <div className="aidf-call-info">
-                <h5 className="aidf-social-title">Call Us - 08047532457</h5>
+                <h5 className="aidf-social-title">Call Us - 8047532457</h5>
                 <div className="aidf-tel-no">
                   <a href="tel:+911294064647" className="aidf-phone-number"></a>
                 </div>

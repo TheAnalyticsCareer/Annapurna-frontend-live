@@ -15,11 +15,11 @@ const Policy = () => {
           <p><strong>Definitions:</strong></p>
           <ul>
             <li><strong>Affiliate:</strong> An entity that controls, is controlled by, or is under common control with a party.</li>
-            <li><strong>Country:</strong> Haryana, India</li>
-            <li><strong>Company:</strong> AIDF GROUP</li>
+            <li><strong>Country:</strong> Delhi, India</li>
+            <li><strong>Company:</strong> Annapurna Interiors Decorators & Furnitures</li>
             <li><strong>Device:</strong> Any device that can access the Service.</li>
             <li><strong>Service:</strong> Refers to the Website.</li>
-            <li><strong>Website:</strong> Refers to AIDF GROUP, accessible at https://www.aidfgroup.com</li>
+            <li><strong>Website:</strong> Refers to Annapurna Interiors, accessible at https://www.annapurnainteriors.com</li>
           </ul>
 
           <h3>Acknowledgment</h3>
@@ -27,7 +27,7 @@ const Policy = () => {
           <p>By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
 
           <h3>Links to Other Websites</h3>
-          <p>Our Service may contain links to third-party sites. AIDF GROUP is not responsible for the content, privacy policies, or practices of any third-party websites.</p>
+          <p>Our Service may contain links to third-party sites. Annapurna Interiors is not responsible for the content, privacy policies, or practices of any third-party websites.</p>
 
           <h3>Termination</h3>
           <p>We may terminate or suspend your access immediately, without prior notice, for any reason, including violation of these terms.</p>
@@ -39,24 +39,23 @@ const Policy = () => {
           <p>The Service is provided “AS IS” and “AS AVAILABLE”. We do not warrant that the Service will be uninterrupted or error-free.</p>
 
           <h3>Governing Law</h3>
-          <p>This Privacy Policy is governed by the laws of India. Any disputes will be handled under the jurisdiction of Haryana, India.</p>
+          <p>This Privacy Policy is governed by the laws of India. Any disputes will be handled under the jurisdiction of Delhi, India.</p>
 
           <h3>Dispute Resolution</h3>
-          <p>If you have any dispute, you agree to resolve it informally by contacting AIDF GROUP first.</p>
+          <p>If you have any dispute, you agree to resolve it informally by contacting Annapurna Interiors first.</p>
 
           <h3>Changes to This Privacy Policy</h3>
           <p>We may update this Privacy Policy from time to time. We will notify you of any material changes at least 30 days prior to implementation.</p>
 
           <h3>Contact Us</h3>
-          <p>
+           <p>
             If you have any questions, contact us at: <br />
-            📧 Email: contact@aidfgroup.com ,
-            <br />
-            📞 Call us :
-           0129-4064647, 8744036000 <br />
-            📍 Address: H. No. 256, Village Anangpur, Sector-37, Faridabad, HR-121003, India
+            📧 Email: info@annapurnainteriors.com <br />
+            📞 Call us: +91-8047532457 <br />
+            📍 Address: <b>Annapurna Interiors Decorators & Furnitures</b> <br />
+            Ground Floor, 213, S/O Kashi Kant Jha, Gali No-8 Block-F, <br />
+            Badarpur, New Delhi - 110044, Delhi, India
           </p>
-
 
           <p><strong>By continuing to use our Service, you confirm that you have read and agree to this Privacy Policy.</strong></p>
         </div>

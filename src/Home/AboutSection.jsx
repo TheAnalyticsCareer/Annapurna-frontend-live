@@ -56,58 +56,38 @@ const features = [
 
 const AIDFAboutSection = () => {
   return (
-    <section className="aidf-about-section" style={{ backgroundColor: "#fafafa" }}>
-      <div className="aidf-about-container">
-        <div className="aidf-about-image large-view-image">
-          <img src={aboutImage} alt="Global Logistics and Transport" />
-          <div className="aidf-image-overlay" style={{ backgroundColor: "rgba(15, 42, 29, 0.1)" }}></div>
+    <section className="aidf-about-section">
+  <div className="aidf-about-container">
+    
+    <div className="aidf-about-left">
+      <h4 style={{fontSize:"24px",fontWeight:"400" }}>Welcome To</h4>
+      <h2>Annapurna Interiors Decorators & Furnitures</h2>
+      <p>
+        We, Annapurna Interiors Decorators & Furnitures are most trusted and appreciated
+        Wholesaler, Service provider, Exporter and Importer of Wooden Flooring, Laminate
+        Flooring, Vinyl Flooring etc.
+      </p>
+      <a href="/about-us" className="aidf-contact-button">
+       About Us
+      </a>
+    </div>
+
+    <div className="aidf-about-right">
+      {features.map((feature, index) => (
+        <div className="aidf-feature-card" key={index}>
+          <div className="aidf-icon-wrapper">
+            <img src={feature.icon} alt={feature.title} />
+          </div>
+          <div className="aidf-feature-text">
+            <h4>{feature.title}</h4>
+            {feature.description && <p>{feature.description}</p>}
+          </div>
         </div>
+      ))}
+    </div>
+  </div>
+</section>
 
-        <div className="aidf-about-content">
-          <div className="aidf-section-title">
-            <h2 style={{ color: "#2a2a2a" }}>Annapurna Interiors Decorators & Furnitures</h2>
-            <div className="aidf-about-powered">
-              <h6 style={{ fontSize: "16px" }}>Powered by Advant</h6>
-              <img src={Logo} alt="Company Logo" style={{ height: "40px" }} />
-            </div>
-            <div className="aidf-title-decoration" style={{ backgroundColor: "#6B9071" }}></div>
-          </div>
-
-          <div className="aidf-about-image mobile-about-header">
-            <img src={aboutImage} alt="Interior Decoration Work" />
-            <div className="aidf-image-overlay" style={{ backgroundColor: "rgba(15, 42, 29, 0.1)" }}></div>
-          </div>
-
-          <p className="aidf-about-text" style={{ color: "#375534" }}>
-            We, Annapurna Interiors Decorators & Furnitures are most trusted and appreciated Wholesaler, Service provider, Exporter and Importer of Wooden Flooring, Laminate Flooring, Vinyl Flooring etc.
-          </p>
-
-          <div className="aidf-about-features">
-            {features.map((feature, index) => (
-              <div className="aidf-feature" key={index}>
-                <div className="aidf-feature-icon" style={{ backgroundColor: "#fff" }}>
-                  <img src={feature.icon} alt={feature.title} style={{ height: "40px" }} />
-                </div>
-                <div className="aidf-feature-content">
-                  <h3 style={{ color: "#2a2a2a" }}>{feature.title}</h3>
-                  {feature.description && (
-                    <p style={{ color: "#2a2a2a" }}>{feature.description}</p>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <a
-            href="/about-us"
-            className="aidf-about-button"
-            style={{ backgroundColor: "red", color: "white" }}
-          >
-            Learn More <i className="fas fa-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-    </section>
   );
 };
 

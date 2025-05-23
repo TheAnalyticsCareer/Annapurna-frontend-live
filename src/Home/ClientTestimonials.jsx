@@ -14,41 +14,36 @@ import client_3 from "./HomeImg/user.jpg";
 const testimonials = [
   {
     id: 1,
-    name: "Aarav Sharma",
-    review:
-      "AIDF GROUP delivers unmatched craftsmanship and quality. Their wooden flooring brought warmth and elegance to my client's home — highly recommended for anyone serious about aesthetics and durability.",
+    name: "Ravi Deshmukh",
+    review: "Annapurna Interiors Decorators & Furnitures exceeded our expectations with their premium imported furnishings. The craftsmanship and attention to detail were remarkable, and our project was delivered on time with zero hassle. Truly a global standard!",
     image: client_1,
   },
   {
     id: 2,
-    name: "Pooja Mehta",
-    review:
-      "From carpet tiles to vinyl flooring, every product from AIDF speaks volumes about premium construction and thoughtful design. Their team provided excellent support throughout the project lifecycle.",
+    name: "Shruti Mehta",
+    review: "Our villa renovation was transformed thanks to Annapurna's imported luxury decor items. From ornate furniture to elegant lighting, every piece reflected quality and sophistication. A reliable partner for upscale interiors.",
     image: client_2,
   },
   {
     id: 3,
-    name: "Karan Verma",
-    review:
-      "I've worked with AIDF GROUP for over 3 years. Their consistent quality, timely delivery, and customizable options make them my preferred partner for high-end commercial and residential projects.",
+    name: "Daniel Pereira",
+    review: "The team at Annapurna Interiors provided exceptional service. Their export-grade modular kitchen and bespoke furniture designs gave our property a refined, international look. Highly recommended for anyone wanting world-class interiors.",
     image: client_3,
   },
-  // Duplicate slides for better looping
   {
     id: 4,
-    name: "Aarav Sharma",
-    review:
-      "AIDF GROUP delivers unmatched craftsmanship and quality. Their wooden flooring brought warmth and elegance to my client's home — highly recommended for anyone serious about aesthetics and durability.",
+    name: "Nikita Sharma",
+    review: "We sourced hotel furnishings through Annapurna, and the results were outstanding. Their imported pieces combined style and durability, perfect for our hospitality standards. Great communication and seamless logistics!",
     image: client_1,
   },
   {
     id: 5,
-    name: "Pooja Mehta",
-    review:
-      "From carpet tiles to vinyl flooring, every product from AIDF speaks volumes about premium construction and thoughtful design. Their team provided excellent support throughout the project lifecycle.",
+    name: "Karan Ahuja",
+    review: "Annapurna Interiors is our go-to for top-tier furniture imports. Their products are not only stylish but built to last. Every shipment was handled professionally with excellent packaging and delivery timelines.",
     image: client_2,
   },
 ];
+
 
 const ClientTestimonials = () => {
   return (

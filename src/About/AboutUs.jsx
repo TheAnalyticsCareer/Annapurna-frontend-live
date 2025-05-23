@@ -160,10 +160,7 @@ const AboutUs = () => {
             </motion.h1>
             <motion.div className="divider" variants={staggerItem} />
             <motion.p variants={staggerItem}>
-              Established in 1995, AIDF GROUP is a pioneering force in the
-              industry. With over 25 years of excellence, we are a leading
-              manufacturer, wholesaler, service provider, and exporter of
-              premium flooring solutions and wooden products.
+              Established in the year 1995 at Delhi, we, Annapurna Interiors Decorators & Furnitures are leading and paramount Wholesaler, Service provider, Exporter and Importer of Wooden Flooring, Laminate Flooring, Vinyl Flooring, Carpet Tiles, Aluminum Profiles, Engineered Wood, Wooden Flooring Pieces, Machine Tufted Carpets, Brazilian Flooring etc. These products are acquired from the best and world-class vendors of the market. Known for weather resistance and Coarse textured, these are used in much wooden application ns like boats making, furniture making etc. They are termite proof and very sleek in design. Our products are checked and tartan against many parameters by quality controllers to confirm global standards. These wooden products are available in many specifications and stipulations as per the details laid by the patrons. Smooth finish, sturdy design, cost-effective rates and durability are few of the many factors that make these products highly appreciated among our customers.
             </motion.p>
           </motion.div>
           <motion.div className="aboutPage-hero-image" variants={rightToLeft}>
@@ -204,11 +201,7 @@ const AboutUs = () => {
               <h3>Chairman</h3>
               <div className="leader-bio">
                 <p>
-                  Under visionary leadership, AIDF GROUP has evolved into an
-                  industry benchmark, combining decades of experience with
-                  modern innovation. The Chairman's unwavering dedication to
-                  quality and strategic growth has helped AIDF become a global
-                  brand known for reliability and customer satisfaction.
+                  Under the visionary leadership of Mr. Sanjeev Kumar Jha, Annapurna Interiors Decorators & Furnitures has evolved into a trusted industry leader, blending decades of expertise with modern innovation. His unwavering commitment to quality, customer satisfaction, and strategic growth has established Annapurna as a respected brand recognized for reliability and excellence both in India and globally.
                 </p>
               </div>
             </div>
@@ -228,11 +221,7 @@ const AboutUs = () => {
               <h3>Managing Director</h3>
               <div className="leader-bio">
                 <p>
-                  The Managing Director of AIDF GROUP plays a pivotal role in
-                  steering the company's success through innovation,
-                  customer-first focus, and sustainable practices. Their
-                  leadership ensures continuous development, unmatched service,
-                  and cutting-edge products tailored for diverse global markets.
+                  The Managing Director of Annapurna Interiors Decorators & Furnitures is instrumental in driving the company’s growth by championing innovation, prioritizing customer needs, and embracing sustainable practices. Their dynamic leadership fosters continuous improvement, exceptional service, and the delivery of high-quality products designed to meet the diverse demands of global markets.
                 </p>
               </div>
             </div>
@@ -259,21 +248,13 @@ const AboutUs = () => {
           <motion.div className="story-content">
             <motion.div className="story-left" variants={leftToRight}>
               <motion.p variants={staggerItem}>
-                Established in 1995, AIDF GROUP is a pioneering force in the
-                industry. With a rich legacy of over 25 years, we have cemented
-                our position as a leading manufacturer, wholesaler, service
-                provider, and exporter of premium flooring solutions and wooden
-                products.
+                Established in the year 1995 at Delhi, we, Annapurna Interiors Decorators & Furnitures are leading and paramount Wholesaler, Service provider, Exporter and Importer of Wooden Flooring, Laminate Flooring, Vinyl Flooring, Carpet Tiles, Aluminum Profiles, Engineered Wood, Wooden Flooring Pieces, Machine Tufted Carpets, Brazilian Flooring etc. 
               </motion.p>
               <motion.p variants={staggerItem}>
-                Our extensive portfolio boasts an impressive range of products,
-                including Wooden Flooring, Laminate Flooring, Vinyl Flooring,
-                Carpet Tiles, Aluminum Profiles, Aluminum Skirting, Engineered
-                Wood, Wooden Flooring Pieces, Machine Tufted Carpets, and
-                Brazilian Flooring.
+               Our vendors work very hard round the clock to keep the quality and prices at the high level. We have appointed professionals to conduct market research to choose our vendors on the ground of their market credibility, financial stability, delivery process and cost-effective rates. We have a very cordial and fruitful relationship with our vendors that help us to offer the world Seaworld-class products to our customers. 
               </motion.p>
               <motion.p className="signature" variants={staggerItem}>
-                AIDF GROUP
+               Annapurna Interiors Decorators & Furnitures
               </motion.p>
             </motion.div>
             <motion.div className="story-right" variants={rightToLeft}>

@@ -3,7 +3,7 @@ import { Dialog, DialogContent, IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import "./header.css";
 import brochure from "../Header/img/aidfProfile.pdf";
-import aidfLogo from "../Header/img/logo.PNG";
+import aidfLogo from "../Header/img/logo.jpeg";
 import axios from "axios";
 import { useFormik } from "formik";
 import { useSearch } from "./SearchContext";
@@ -467,7 +467,7 @@ const Header = () => {
                 </button>
                 <button className="header_button phone">
                   <span className="button-icon">📞</span>
-                  <span>+91-87440-36000</span>
+                  <span>+91-80475-32457</span>
                 </button>
               </div>
             </div>

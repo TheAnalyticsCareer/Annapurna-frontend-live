@@ -145,10 +145,11 @@ User(s) agree that by registering on the Web Site, they consent to the inclusion
          <h3>Contact Us</h3>
           <p>
             If you have any questions, contact us at: <br />
-            📧 Email: contact@aidfgroup.com ,
+            📧 Email: info@annapurnainteriors.com ,
              <br />
             📞 Call us :
-            +91-08047532457 <br />
+           +91-8047532457
+ <br />
             📍 Address: <b>Annapurna Interiors Decorators & Furnitures</b> <br />
 Ground Floor, 213, S/O Kashi Kant Jha, Gali No-8 Block-F
 Badarpur, New Delhi - 110044, Delhi, India

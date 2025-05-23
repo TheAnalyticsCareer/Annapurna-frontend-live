@@ -153,7 +153,7 @@ const LocateUs = () => {
                   <h3 className="locate-us__card-title">Phone</h3>
                   <div className="locate-us__info-values">
                     <span className="locate-us__info-value">
-                      +91-08047532457
+                      +91-8047532457
                     </span>
                    
                   </div>

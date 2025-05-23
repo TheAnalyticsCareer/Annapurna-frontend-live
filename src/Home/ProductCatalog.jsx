@@ -996,8 +996,8 @@ return (
       </div>
     </section>
   <div className="product-catalog-more-button-wrapper">
-  <a href="/Moreproducts" className="product-catalog-more-button">
-    More
+  <a href="/more" className="product-catalog-more-button">
+    More products
   </a>
 </div>
 

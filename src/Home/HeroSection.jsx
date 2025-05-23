@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./HeroSection.css";
-import image1 from "./SlideImg/parker-tiles.jpg";
-import image2 from "./SlideImg/2img.jpg";
+import image1 from "./SlideImg/1img.jfif";
+import image2 from "./SlideImg/2img.webp";
 import image3 from "./SlideImg/3img.jpg";
 import card1 from "./HomeImg/stick-on-skirting.jpg";
 import card2 from "./HomeImg/carpet.jpg";

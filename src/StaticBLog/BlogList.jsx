@@ -2,6 +2,9 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import './BlogStyles.css';
 import { useNavigate } from 'react-router-dom';
+import id1 from "./blogimg/How-to-choose-the-perfect-flooring.webp";
+import id2 from "./blogimg/Flor-carpet-tiles.jpg";
+import id3 from "./blogimg/aluminium-blog.jpg";
 
 const BlogList = () => {
 
@@ -12,52 +15,29 @@ const BlogList = () => {
   const blogs = [
     {
       id: 1,
-      title: "The Future of Interior Design in 2023",
-      excerpt: "Discover the emerging trends that will dominate interior spaces this year and how to incorporate them.",
+      title: "How to Choose the Right Flooring for Every Room",
+      excerpt: "A complete guide to selecting the ideal flooring based on lifestyle, durability, and space functionality.",
       date: "May 15, 2023",
-      category: "Design Trends",
-      image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      category: "Flooring Tips",
+      image: id1
     },
     {
       id: 2,
-      title: "Sustainable Materials for Modern Homes",
-      excerpt: "Explore eco-friendly materials that don't compromise on style or durability for your next renovation.",
+      title: "Sustainable Carpet Solutions: Comfort, Style, and Responsibility Underfoot",
+      excerpt: "Explore how Annapurna Interiors Decorators & Furnitures eco-conscious carpet tiles combine luxury, performance, and environmental responsibility in modern",
       date: "April 28, 2023",
       category: "Sustainability",
-      image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: id2
     },
     {
       id: 3,
-      title: "Maximizing Small Spaces: Design Principles",
-      excerpt: "Learn professional techniques to make the most of limited square footage without sacrificing functionality.",
+      title: "Aluminum Profiles in Modern Architecture",
+      excerpt: "Explore how aluminum profiles are shaping modern interiors with strength, style, and sustainability.",
       date: "April 10, 2023",
-      category: "Space Planning",
-      image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      category: "Architecture",
+      image: id3
     },
-    {
-      id: 4,
-      title: "Color Psychology in Residential Design",
-      excerpt: "How different hues affect mood and perception in living spaces, with practical application tips.",
-      date: "March 22, 2023",
-      category: "Color Theory",
-      image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-    },
-    {
-      id: 5,
-      title: "Lighting Strategies for Different Room Types",
-      excerpt: "Professional guidance on selecting and placing lighting fixtures for optimal ambiance and function.",
-      date: "March 15, 2023",
-      category: "Lighting",
-      image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-    },
-    {
-      id: 6,
-      title: "The Art of Mixing Textures and Patterns",
-      excerpt: "Master the balance of different materials and prints to create visually rich, cohesive interiors.",
-      date: "February 28, 2023",
-      category: "Design Techniques",
-      image: "https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-    }
+    
   ];
 
   return (

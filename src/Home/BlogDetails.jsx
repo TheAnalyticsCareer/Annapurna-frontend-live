@@ -49,10 +49,10 @@ const blogs = [
 
 For personalized flooring consultations or technical specifications, our team of certified flooring specialists remains available to provide expert guidance tailored to your specific project requirements and design vision.</p>
 
-        <p>
+       <p>
           📞 <strong>Connect with Us:</strong><br />
-          ✉️ Email: <a href="mailto:contact@aidfgroup.com">contact@aidfgroup.com</a><br />
-          🌐 Website: <a href="https://www.aidfgroup.com" target="_blank" rel="noreferrer">www.aidfgroup.com</a>
+          ✉️ Email: <a href="mailto:info@annapurnainteriors.com">info@annapurnainteriors.com</a><br />
+          🌐 Website: <a href="https://www.annapurnainteriors.com/" target="_blank" rel="noreferrer">www.annapurnainteriors.com</a>
         </p>
       </>
     ),
@@ -109,8 +109,8 @@ For personalized flooring consultations or technical specifications, our team of
 
         <p>
           📞 <strong>Connect with Us:</strong><br />
-          ✉️ Email: <a href="mailto:contact@aidfgroup.com">contact@aidfgroup.com</a><br />
-          🌐 Website: <a href="https://www.aidfgroup.com" target="_blank" rel="noreferrer">www.aidfgroup.com</a>
+          ✉️ Email: <a href="mailto:info@annapurnainteriors.com">info@annapurnainteriors.com</a><br />
+          🌐 Website: <a href="https://www.annapurnainteriors.com/" target="_blank" rel="noreferrer">www.annapurnainteriors.com</a>
         </p>
       </>
     ),
@@ -156,10 +156,10 @@ For personalized flooring consultations or technical specifications, our team of
 
 
 
-        <p>
+       <p>
           📞 <strong>Connect with Us:</strong><br />
-          ✉️ Email: <a href="mailto:contact@aidfgroup.com">contact@aidfgroup.com</a><br />
-          🌐 Website: <a href="https://www.aidfgroup.com" target="_blank" rel="noreferrer">www.aidfgroup.com</a>
+          ✉️ Email: <a href="mailto:info@annapurnainteriors.com">info@annapurnainteriors.com</a><br />
+          🌐 Website: <a href="https://www.annapurnainteriors.com/" target="_blank" rel="noreferrer">www.annapurnainteriors.com</a>
         </p>
       </>
     ),

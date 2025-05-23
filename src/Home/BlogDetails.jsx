@@ -153,11 +153,11 @@ const blogs = [
           📞 <strong>Connect with Us:</strong>
           <br />
           ✉️ Email:{" "}
-          <a href="mailto:contact@aidfgroup.com">contact@aidfgroup.com</a>
+          <a href="mailto:info@annapurnainteriors.com">info@annapurnainteriors.com</a>
           <br />
           🌐 Website:{" "}
-          <a href="https://www.aidfgroup.com" target="_blank" rel="noreferrer">
-            www.aidfgroup.com
+          <a href="https://www.annapurnainteriors.com/" target="_blank" rel="noreferrer">
+            www.annapurnainteriors.com
           </a>
         </p>
       </>
@@ -382,15 +382,15 @@ const blogs = [
           feels as good as it looks.
         </p>
 
-        <p>
+       <p>
           📞 <strong>Connect with Us:</strong>
           <br />
           ✉️ Email:{" "}
-          <a href="mailto:contact@aidfgroup.com">contact@aidfgroup.com</a>
+          <a href="mailto:info@annapurnainteriors.com">info@annapurnainteriors.com</a>
           <br />
           🌐 Website:{" "}
-          <a href="https://www.aidfgroup.com" target="_blank" rel="noreferrer">
-            www.aidfgroup.com
+          <a href="https://www.annapurnainteriors.com/" target="_blank" rel="noreferrer">
+            www.annapurnainteriors.com
           </a>
         </p>
       </>
@@ -575,11 +575,11 @@ const blogs = [
           📞 <strong>Connect with Us:</strong>
           <br />
           ✉️ Email:{" "}
-          <a href="mailto:contact@aidfgroup.com">contact@aidfgroup.com</a>
+          <a href="mailto:info@annapurnainteriors.com">info@annapurnainteriors.com</a>
           <br />
           🌐 Website:{" "}
-          <a href="https://www.aidfgroup.com" target="_blank" rel="noreferrer">
-            www.aidfgroup.com
+          <a href="https://www.annapurnainteriors.com/" target="_blank" rel="noreferrer">
+            www.annapurnainteriors.com
           </a>
         </p>
       </>
@@ -633,12 +633,16 @@ const blogs = [
           Emerging technologies include AI-powered adaptive sound systems that adjust in real-time to noise levels, nanotechnology-based ultra-thin absorbers, and smart materials that change acoustic properties based on environmental conditions. The future workplace will likely feature personalized acoustic environments tailored to individual preferences and tasks.
         </p>
 
-        <p>
+         <p>
           📞 <strong>Connect with Us:</strong>
           <br />
-          ✉️ Email: <a href="mailto:contact@aidfgroup.com">contact@aidfgroup.com</a>
+          ✉️ Email:{" "}
+          <a href="mailto:info@annapurnainteriors.com">info@annapurnainteriors.com</a>
           <br />
-          🌐 Website: <a href="https://www.aidfgroup.com" target="_blank" rel="noreferrer">www.aidfgroup.com</a>
+          🌐 Website:{" "}
+          <a href="https://www.annapurnainteriors.com/" target="_blank" rel="noreferrer">
+            www.annapurnainteriors.com
+          </a>
         </p>
       </>
     ),
@@ -690,12 +694,16 @@ const blogs = [
           Emerging innovations include glass that can display digital content, self-cleaning nano-coatings, and machine learning algorithms that predict optimal tint levels. As the technology becomes more affordable, we're seeing broader adoption in mid-range projects beyond just high-end developments. The next decade will likely see smart glass become a standard feature in green building design.
         </p>
 
-        <p>
+         <p>
           📞 <strong>Connect with Us:</strong>
           <br />
-          ✉️ Email: <a href="mailto:contact@aidfgroup.com">contact@aidfgroup.com</a>
+          ✉️ Email:{" "}
+          <a href="mailto:info@annapurnainteriors.com">info@annapurnainteriors.com</a>
           <br />
-          🌐 Website: <a href="https://www.aidfgroup.com" target="_blank" rel="noreferrer">www.aidfgroup.com</a>
+          🌐 Website:{" "}
+          <a href="https://www.annapurnainteriors.com/" target="_blank" rel="noreferrer">
+            www.annapurnainteriors.com
+          </a>
         </p>
       </>
     ),
@@ -763,9 +771,13 @@ const blogs = [
         <p>
           📞 <strong>Connect with Us:</strong>
           <br />
-          ✉️ Email: <a href="mailto:contact@aidfgroup.com">contact@aidfgroup.com</a>
+          ✉️ Email:{" "}
+          <a href="mailto:info@annapurnainteriors.com">info@annapurnainteriors.com</a>
           <br />
-          🌐 Website: <a href="https://www.aidfgroup.com" target="_blank" rel="noreferrer">www.aidfgroup.com</a>
+          🌐 Website:{" "}
+          <a href="https://www.annapurnainteriors.com/" target="_blank" rel="noreferrer">
+            www.annapurnainteriors.com
+          </a>
         </p>
       </>
     ),

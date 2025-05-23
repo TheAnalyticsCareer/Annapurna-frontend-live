@@ -191,7 +191,7 @@
   .aidf-about-container {
     flex-direction: column;
     gap: 2rem;
-    padding: 0 2rem;
+    padding: 20px 2rem;
   }
 
   .aidf-about-image,
@@ -248,7 +248,7 @@
   }
 
   .aidf-about-container {
-    padding: 0px 1rem;
+    padding: 15px 1rem;
     gap: 1.5rem;
     margin-top: -4rem;
   }
@@ -327,7 +327,7 @@
 
 @media (max-width: 320px) {
   .aidf-about-section {
-    padding: 1rem 0;
+    padding: 0rem 0;
   }
 
   .aidf-about-image img {

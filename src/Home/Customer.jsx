@@ -76,12 +76,18 @@ const Customer = () => {
       className="customer-section"
       style={{ paddingTop: "30px", marginBottom: "10px" }}
     >
-      <h2
-        style={{ color: "#61CE70" }}
-        className="text-5xl font-extrabold text-center mb-20 text-gray-800 "
-      >
-        OUR VALUED CUSTOMERS
-      </h2>
+     <h2
+  style={{
+    color: "#61CE70",
+    textAlign: "center",
+    fontSize: "1.9rem",
+    fontWeight: "600"
+  }}
+>
+  OUR VALUED CUSTOMERS
+</h2>
+
+
 
       <div style={{ paddingTop: "10px", paddingBottom: "10px" }}></div>
 

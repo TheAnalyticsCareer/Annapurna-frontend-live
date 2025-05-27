@@ -57,7 +57,7 @@
 /* === SLIDESHOW CONTAINER === */
 .hs-slideshow-container {
   position: relative;
-  width: 100%;
+  width: 99%;
   height: 70vh;
   min-height: 400px;
   max-height: 800px;

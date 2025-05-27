@@ -355,6 +355,7 @@
 
 .hs-background-video {
   position: absolute;
+  margin-top: 1rem;
   top: 0;
   left: 0;
   width: 100%;

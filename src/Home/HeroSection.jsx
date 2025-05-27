@@ -158,7 +158,7 @@
 
 
 
-import video from "./SlideImg/backvid.mp4";
+import video from "./SlideImg/backvideo.mp4";
 import React, { useState, useEffect } from "react";
 import "./HeroSection.css";
 

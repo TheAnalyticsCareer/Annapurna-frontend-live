@@ -466,7 +466,7 @@ const sections = [
     <span className="button-icon">📞</span>
     <span>
       +91-80475-32457 
-      <span className="response-rate">91% Response rate</span>
+      
     </span>
   </div>
 </a>

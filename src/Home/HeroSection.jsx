@@ -1,6 +1,6 @@
 // import React, { useState, useEffect } from "react";
 // import "./HeroSection.css";
- import video from "./SlideImg/backvid.mp4";
+ 
 // // import image2 from "./SlideImg/2img.webp";
 // // import image3 from "./SlideImg/3img.jpg";
 // import card1 from "./HomeImg/stick-on-skirting.jpg";
@@ -158,7 +158,7 @@
 
 
 
-
+import video from "./SlideImg/backvid.mp4";
 import React, { useState, useEffect } from "react";
 import "./HeroSection.css";
 
@@ -242,45 +242,9 @@ const HeroSection = () => {
           Your browser does not support the video tag.
         </video>
 
-        <div
-          className="hs-slides-wrapper"
-          style={{
-            transform: `translateX(-${currentIndex * 100}%)`,
-          }}
-        >
-          {slides.map((slide, index) => (
-            <div
-              key={index}
-              className="hs-slide"
-              aria-hidden={index !== currentIndex}
-            >
-              <div className="hs-caption">
-                <h2>{slide.caption.title}</h2>
-                <p>{slide.caption.description}</p>
-                {slide.caption.buttonText && (
-                  <button className="hs-caption-button">
-                    {slide.caption.buttonText}
-                  </button>
-                )}
-              </div>
-            </div>
-          ))}
-        </div>
+      
 
-        <button
-          className="hs-nav-arrow hs-prev-arrow"
-          onClick={goToPrev}
-          aria-label="Previous slide"
-        >
-          &#10094;
-        </button>
-        <button
-          className="hs-nav-arrow hs-next-arrow"
-          onClick={goToNext}
-          aria-label="Next slide"
-        >
-          &#10095;
-        </button>
+       
       </div>
 
       <div className="hs-product-cards-container">

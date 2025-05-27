@@ -669,7 +669,7 @@ const sections = [
                 <form onSubmit={handleSearchSubmit} className="search_bar">
                   <input
                     type="text"
-                    placeholder="Search sections..."
+                    placeholder="Search Products..."
                     value={searchQuery}
                     onChange={handleSearchChange}
                     onFocus={() =>

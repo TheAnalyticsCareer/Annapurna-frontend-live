@@ -60,7 +60,7 @@ const AIDFAboutSection = () => {
   <div className="aidf-about-container">
     
     <div className="aidf-about-left">
-      <h4 style={{fontSize:"24px",fontWeight:"400" }}>Welcome To</h4>
+      <h4 style={{fontSize:"25px",fontWeight:"550" }}>Welcome To</h4>
       <h2>Annapurna Interiors Decorators & Furnitures</h2>
       <p>
         We, Annapurna Interiors Decorators & Furnitures are most trusted and appreciated

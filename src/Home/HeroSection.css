@@ -1,7 +1,7 @@
 /* === BADGES === */
 .hs-badge {
   position: absolute;
-  top: 2vw;
+  top: 3.5vw;
   z-index: 10;
 }
 .hs-badge-left {
@@ -16,7 +16,7 @@
 }
 @media (max-width: 426px) {
   .hs-badge {
-    top: 70px;
+    top: 55px;
   }
 }
 
@@ -43,7 +43,7 @@
 @media (max-width: 768px) {
   .hs-container {
     margin-top: 0;
-            min-height: 0vh;
+    min-height: 0vh;
     margin-bottom: 1rem;
   }
 }
@@ -93,8 +93,8 @@
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; /* ensures full coverage with best clarity */
-  image-rendering: auto; /* let browser pick best rendering */
+  background-size: cover;
+  image-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -143,213 +143,222 @@
 
 /* === PRODUCT CARDS CONTAINER === */
 .hs-product-cards-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
   padding: 0 20px;
   position: relative;
-  margin: -100px auto 0;
+  margin: -80px auto 0;
   z-index: 2;
-  max-width: 1400px;
-}
-@media (max-width: 1440px) {
-  .hs-product-cards-container {
-    max-width: 1200px;
-  }
+  max-width: 1200px;
 }
 @media (max-width: 1024px) {
   .hs-product-cards-container {
-    max-width: 950px;
-    gap: 15px;
+    gap: 25px;
+    margin-top: -70px;
   }
 }
 @media (max-width: 768px) {
   .hs-product-cards-container {
-    max-width: 700px;
-    gap: 12px;
-    margin-top: -80px;
+    gap: 20px;
+    margin-top: -60px;
   }
 }
 @media (max-width: 576px) {
   .hs-product-cards-container {
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 450px;
+    gap: 15px;
     margin-top: -50px;
-    gap: 20px;
-  }
-}
-@media (max-width: 400px) {
-  .hs-product-cards-container {
-    margin-top: -40px;
+    padding: 0 10px;
   }
 }
 
-/* === PRODUCT CARD === */
+/* === CIRCULAR PRODUCT CARD === */
 .hs-product-card {
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   text-decoration: none;
-  color: #0f2a1d;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
 }
 .hs-product-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
 }
-
-/* === CARD IMAGE === */
-.hs-card-image-container {
+.hs-card-circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.hs-card-image-wrapper {
   position: relative;
-  width: 100%;
-  height: 170px;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
   overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
 }
-.hs-card-image {
+.hs-product-card:hover .hs-card-image-wrapper {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.hs-card-circle-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
 }
-.hs-product-card:hover .hs-card-image {
-  transform: scale(1.05);
+.hs-product-card:hover .hs-card-circle-image {
+  transform: scale(1.1);
 }
-.hs-image-overlay {
+.hs-circle-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(111, 143, 117, 0.1) 0%, rgba(15, 42, 29, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%);
+  opacity: 0.3;
   transition: opacity 0.3s ease;
 }
-.hs-product-card:hover .hs-image-overlay {
-  opacity: 0.8;
-}
-@media (max-width: 1440px) {
-  .hs-card-image-container {
-    height: 150px;
-  }
-}
-@media (max-width: 1024px) {
-  .hs-card-image-container {
-    height: 130px;
-  }
-}
-@media (max-width: 768px) {
-  .hs-card-image-container {
-    height: 110px;
-  }
-}
-@media (max-width: 576px) {
-  .hs-card-image-container {
-    height: 140px;
-  }
-}
-
-/* === CARD CONTENT === */
-.hs-card-content {
-  padding: 20px;
-  background: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  transition: background-color 0.3s ease;
-  min-height: 80px;
+.hs-product-card:hover .hs-circle-overlay {
+  opacity: 0.5;
 }
 .hs-card-title {
   margin: 0;
   font-size: 1.1rem;
   font-weight: 600;
-  transition: color 0.3s ease;
   color: #2a2a2a;
-  flex: 1;
+  text-align: center;
+  transition: color 0.3s ease;
+  max-width: 150px;
+  padding: 0 5px;
 }
 .hs-product-card:hover .hs-card-title {
-  color: #000;
-}
-.hs-product-card:hover .hs-card-content {
-  background-color: #e90000;
-}
-.hs-card-arrow {
-  transition: transform 0.3s ease;
-}
-.hs-card-arrow svg {
-  width: 1.3rem;
-  height: 1.3rem;
-}
-.hs-product-card:hover .hs-card-arrow {
-  transform: translateX(5px);
+  color: #e90000;
 }
 
-/* === RESPONSIVE CARD CONTENT === */
-@media (max-width: 1440px) {
-  .hs-card-content {
-    padding: 15px;
-    min-height: 70px;
+/* Responsive adjustments for product card */
+@media (max-width: 1024px) {
+  .hs-card-image-wrapper {
+    width: 130px;
+    height: 130px;
   }
   .hs-card-title {
     font-size: 1rem;
   }
 }
-@media (max-width: 1024px) {
-  .hs-card-content {
-    padding: 12px;
-    min-height: 65px;
-  }
-  .hs-container {
-    min-height: 65vh;
-  }
-  .hs-card-title {
-    font-size: 0.95rem;
-  }
-  .hs-card-arrow svg {
-    width: 1.1rem;
-    height: 1.1rem;
-  }
-}
 @media (max-width: 768px) {
-  .hs-card-content {
-    padding: 10px;
-    min-height: 60px;
+  .hs-card-image-wrapper {
+    width: 120px;
+    height: 120px;
   }
   .hs-card-title {
     font-size: 0.9rem;
   }
-  .hs-card-arrow svg {
-    width: 1rem;
-    height: 1rem;
+}
+@media (max-width: 576px) {
+  .hs-card-image-wrapper {
+    width: 90px;
+    height: 90px;
+  }
+  .hs-card-title {
+    font-size: 0.8rem;
+    max-width: 100px;
   }
 }
 @media (max-width: 400px) {
-  .hs-card-content {
-    padding: 12px;
-    min-height: 60px;
+  .hs-card-image-wrapper {
+    width: 90px;
+    height: 90px;
   }
   .hs-card-title {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
+    max-width: 80px;
   }
 }
 
-/* === TRUST / YEARS IMAGE RESPONSIVE === */
-@media (max-width: 769px) {
-  .hs-trust-image {
-    height: 5rem;
-    margin-top: 60px;
-    width: auto;
-  }
+/* === QUOTE BUTTON === */
+.hs-quote-btn {
+  background-color: #e90000;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
 }
-@media (max-width: 576px) {
-  .hs-years-image {
-    margin-top: 93px;
-    height: 5rem;
-  }
+.hs-quote-btn:hover {
+  background-color: #c40000;
 }
-@media (max-width: 426px) {
-  .hs-trust-image {
-    height: 4rem;
-    width: auto;
-  }
+
+/* === MODAL BACKDROP === */
+.hs-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
 }
+
+/* === MODAL === */
+.hs-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  z-index: 1001;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.hs-modal h2 {
+  margin-top: 0;
+}
+.hs-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #555;
+}
+.hs-modal input,
+.hs-modal textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.hs-modal button {
+  background-color: #e90000;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hs-modal button:hover {
+  background-color: #c40000;
+}
+
+.hs-background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

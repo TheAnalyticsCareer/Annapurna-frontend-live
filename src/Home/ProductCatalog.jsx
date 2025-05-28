@@ -148,7 +148,7 @@ import product6 from "./ProductCatalogimg/welspun-carpet-tiles-500x500.89d3881c5
 import product7 from "./ProductCatalogimg/carpet-tile.0190499ae4cf0d38cf60.webp";
 import product8 from "./ProductCatalogimg/loop-pile-carpet-500x500.5416c602fba383c0e6ae.webp";
 import product9 from "./ProductCatalogimg/loop-pile-carpets.0872bbbea353719abdbc.webp";
-import product10 from "./ProductCatalogimg/aluminum-screw-on-skirting-1000x1000.611ca97bbd27ce8dffb3.webp";
+import product10 from "../Products/UPVC/img/skirting/new_img.webp";
 import product11 from "./ProductCatalogimg/easy-fix-modular-skirting-500x500.e7114197f3a664214516.webp";
 import product12 from "./ProductCatalogimg/aluminium door.34ecf2c4b3b76d5f0bc4.jpg";
 import product13 from "./ProductCatalogimg/aluminum-stuck-on-skirting-500x500.f872164f43ba2d1bfba3.webp";

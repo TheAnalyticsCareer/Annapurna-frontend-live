@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./BlogSlider.css";
-import id1 from "./HomeImg/How-to-choose-the-perfect-flooring.webp";
-import id2 from "./HomeImg/aluminium-blog.jpg";
-import id3 from "./HomeImg/Flor-carpet-tiles.jpg";
+
+
+
 
 const BlogSlider = () => {
   const navigate = useNavigate();
@@ -16,17 +16,17 @@ const BlogSlider = () => {
         "A complete guide to selecting the ideal flooring based on lifestyle, durability, and space functionality.",
       date: "May 7, 2025",
       category: "Flooring Tips",
-      image: id1,
+      image: "https://th.bing.com/th/id/OIP.agmtbmWxeXeoHct3X6VT6wHaEM?cb=iwc2&rs=1&pid=ImgDetMain",
     },
     {
       id: 2,
       title:
         "Sustainable Carpet Solutions: Comfort, Style, and Responsibility Underfoot",
       excerpt:
-        "Explore how AIDF's eco-conscious carpet tiles combine luxury, performance, and environmental responsibility in modern interiors.",
+        "Explore how Annapurna Interiors eco-conscious carpet tiles combine luxury, performance, and environmental responsibility in modern interiors.",
       date: "May 7, 2025",
       category: "Sustainable Design",
-      image: id3,
+      image: "https://th.bing.com/th/id/OIP.Q3H15hCjIJVyQFQU1TEwKQHaE9?cb=iwc2&rs=1&pid=ImgDetMain",
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ const BlogSlider = () => {
         "Explore how aluminum profiles are shaping modern interiors with strength, style, and sustainability.",
       date: "May 7, 2025",
       category: "Architecture",
-      image: id2,
+      image: "https://th.bing.com/th/id/OIP.6WyiSLagAy2AbqcurGDEJAHaE8?cb=iwc2&rs=1&pid=ImgDetMain",
     },
   ];
 

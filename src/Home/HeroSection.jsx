@@ -162,11 +162,11 @@ import video from "./SlideImg/backvideo.mp4";
 import React, { useState, useEffect } from "react";
 import "./HeroSection.css";
 
-import card1 from "./HomeImg/stick-on-skirting.jpg";
-import card2 from "./HomeImg/carpet.jpg";
-import card3 from "./HomeImg/flooring.jpg";
-import card4 from "./HomeImg/aluminum-slim-glass-partition-1000x1000.webp";
-import card5 from "./HomeImg/grass3.jpg";
+import card1 from "../Products/UPVC/img/aluminium_glass/homecard.jpg";
+import card2 from "../Products/UPVC/img/carpet/app1-500x500.webp";
+import card3 from "../Products/UPVC/img/flooring/Remarkable-Features-of-SPC-Flooring.webp";
+import card4 from "../Products/UPVC/img/aluminium_glass/curved-glass-partition-1000x1000.webp";
+import card5 from "../Products/UPVC/img/more/grass1.jpg";
 import years from "./HomeImg/15+excellence.png";
 import trust from "./HomeImg/trust.png";
 

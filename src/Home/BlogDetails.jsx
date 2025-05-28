@@ -1,9 +1,7 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./BlogDetails.css";
-import id1 from "./HomeImg/How-to-choose-the-perfect-flooring.webp";
-import id2 from "./HomeImg/aluminium-blog.jpg";
-import id3 from "./HomeImg/Flor-carpet-tiles.jpg";
+
 
 const blogs = [
   {
@@ -164,19 +162,19 @@ const blogs = [
     ),
     date: "May 7, 2025",
     category: "Flooring Tips",
-    image: id1,
+    image: "https://th.bing.com/th/id/OIP.agmtbmWxeXeoHct3X6VT6wHaEM?cb=iwc2&rs=1&pid=ImgDetMain",
     author: "Anya Sharma",
     tags: ["flooring", "home improvement", "interior design", "renovation"],
     readingTime: "7 minutes",
     paragraphContent:
-      "Flooring plays a crucial role in defining the comfort, style, and durability of your interiors. At AIDF GROUP, we provide tailored flooring options to suit each room’s purpose — whether it’s warmth for bedrooms or water resistance for kitchens. Every room has unique traffic, moisture, and comfort needs. Kitchens and bathrooms need water-resistant solutions. Living spaces require acoustic support and visual appeal. Proper flooring increases property value and reduces repairs. What’s new in 2025 includes pre-attached underlayment for easier installation, flooring compatible with radiant heating, anti-microbial vinyl and laminate layers, and scratch-proof finishes with longer lifespan. Advantages include being long-lasting and durable for high-footfall zones, sound absorption in carpet and wood options, eco-friendly engineered wood and vinyl options, and being easy to clean and maintain. Benefits include aesthetically uniform rooms, enhanced resale value, greater comfort and safety, and lower renovation costs over time. Choosing the right flooring isn't just about style — it's about functionality. AIDF GROUP offers specialized solutions to meet every room’s unique needs. Connect with Us: Email: contact@aidfgroup.com Website: www.aidfgroup.com",
+      "",
   },
   {
     id: 2,
     title:
       "Sustainable Carpet Solutions: Comfort, Style, and Responsibility Underfoot",
     excerpt:
-      "Explore how AIDF's eco-conscious carpet tiles combine luxury, performance, and environmental responsibility in modern interiors.",
+      "Explore how Annapurna Interior's eco-conscious carpet tiles combine luxury, performance, and environmental responsibility in modern interiors.",
     content: (
       <>
         <h3>
@@ -397,7 +395,7 @@ const blogs = [
     ),
     date: "May 7, 2025",
     category: "Sustainable Design",
-    image: id3,
+    image: "https://www.thespruce.com/thmb/3sQLL2pPJ9_FH_Ap81q6ip2uwZw=/3872x2592/filters:fill(auto,1)/GettyImages-157480358-5c5e0803c9e77c00010a48e8.jpg",
     author: "Priya Verma",
     tags: ["sustainable design", "carpets", "eco-friendly", "interior design"],
     readingTime: "6 minutes",
@@ -586,7 +584,7 @@ const blogs = [
     ),
     date: "May 7, 2025",
     category: "Architecture",
-    image: id2,
+    image: "https://th.bing.com/th/id/OIP.6WyiSLagAy2AbqcurGDEJAHaE8?cb=iwc2&rs=1&pid=ImgDetMain",
     author: "Rahul Menon",
     tags: [
       "aluminum profiles",
@@ -648,7 +646,7 @@ const blogs = [
     ),
     date: "May 7, 2025",
     category: "Workspace Design",
-    image: "https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "https://sound-zero.com/wp-content/uploads/2024/01/adolfo-felix-PG8NyM_Mcts-unsplash.jpg",
     author: "Neha Kapoor",
     tags: ["acoustics", "workspace design", "productivity", "office solutions"],
     readingTime: "6 minutes",
@@ -709,7 +707,7 @@ const blogs = [
     ),
     date: "May 7, 2025",
     category: "Innovative Materials",
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://therealtytoday.com/media/django-summernote/2024-12-13/f53d7ac1-41e4-4018-87b6-787a0276bbe6.jpg",
     author: "Arjun Patel",
     tags: ["smart glass", "facade technology", "sustainable design", "building automation"],
     readingTime: "7 minutes",
@@ -783,7 +781,7 @@ const blogs = [
     ),
     date: "May 7, 2025",
     category: "Wellness Design",
-    image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://th.bing.com/th/id/OIP.xCThp2R1iB5Z3gUu29RNXQHaE7?cb=iwc2&rs=1&pid=ImgDetMain",
     author: "Meera Desai",
     tags: ["biophilic design", "wellness architecture", "sustainable design", "urban planning"],
     readingTime: "8 minutes",

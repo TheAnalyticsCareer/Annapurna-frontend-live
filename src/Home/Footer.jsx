@@ -29,7 +29,7 @@ const Footer = () => {
   ];
   const footerColumns = [
     {
-      title: "Discover AIDF GROUP",
+      title: "Discover Annapurna Interiors Decorators & Furnitures",
       links: [
         { text: "Home", url: "/" },
         { text: "About Us", url: "/about-us" },

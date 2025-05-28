@@ -2,15 +2,6 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import './BlogStyles.css';
 import { useNavigate } from 'react-router-dom';
-import id1 from "../Home/HomeImg/How-to-choose-the-perfect-flooring.webp";
-import id2 from "../Home/HomeImg/aluminium-blog.jpg";
-import id3 from "../Home/HomeImg/Flor-carpet-tiles.jpg";
-
-
-
-
-
-
 
 const BlogList = () => {
 
@@ -25,15 +16,15 @@ const BlogList = () => {
       excerpt: "A complete guide to selecting the ideal flooring based on lifestyle, durability, and space functionality.",
       date: "May 15, 2023",
       category: "Design Trends",
-      image: id1
+      image: "https://th.bing.com/th/id/OIP.agmtbmWxeXeoHct3X6VT6wHaEM?cb=iwc2&rs=1&pid=ImgDetMain"
     },
     {
       id: 2,
       title: "Sustainable Carpet Solutions: Comfort, Style, and Responsibility Underfoot",
-      excerpt: "Explore how AIDF's eco-conscious carpet tiles combine luxury, performance, and environmental responsibility in modern interiors.",
+      excerpt: "Annapurna Interior's eco-conscious carpet tiles combine luxury, performance, and environmental responsibility in modern interiors.",
       date: "April 28, 2023",
       category: "Sustainability",
-      image: id3
+      image: "https://th.bing.com/th/id/OIP.Q3H15hCjIJVyQFQU1TEwKQHaE9?cb=iwc2&rs=1&pid=ImgDetMain"
     },
     {
       id: 3,
@@ -41,7 +32,7 @@ const BlogList = () => {
       excerpt: "Explore how aluminum profiles are shaping modern interiors with strength, style, and sustainability.",
       date: "April 10, 2023",
       category: "Space Planning",
-      image: id2
+      image: "https://th.bing.com/th/id/OIP.6WyiSLagAy2AbqcurGDEJAHaE8?cb=iwc2&rs=1&pid=ImgDetMain"
     },
     {
       id: 4,
@@ -49,7 +40,7 @@ const BlogList = () => {
       excerpt: "open-plan offices and collaborative workspaces, uncontrolled noise has become one of the biggest threats to employee productivity and well-being. ",
       date: "March 22, 2023",
       category: "Color Theory",
-      image: "https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://sound-zero.com/wp-content/uploads/2024/01/adolfo-felix-PG8NyM_Mcts-unsplash.jpg"
     },
     {
       id: 5,
@@ -57,7 +48,7 @@ const BlogList = () => {
       excerpt: "Smart glass, or switchable glass, represents one of the most transformative technologies in modern architecture. This innovative material can change its light transmission properties on demand, transitioning from transparent to opaque with the flip of a switch or automated environmental triggers. ",
       date: "March 15, 2023",
       category: "Lighting",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://therealtytoday.com/media/django-summernote/2024-12-13/f53d7ac1-41e4-4018-87b6-787a0276bbe6.jpg"
     },
     {
       id: 6,
@@ -65,7 +56,7 @@ const BlogList = () => {
       excerpt: "This design philosophy goes beyond simply adding plants to interiors - it represents a fundamental rethinking of how buildings can satisfy our innate need to connect with nature. Research demonstrates that well-executed biophilic design can reduce stress, enhance creativity, and improve cognitive function by 8-15%.",
       date: "February 28, 2023",
       category: "Design Techniques",
-      image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://th.bing.com/th/id/OIP.xCThp2R1iB5Z3gUu29RNXQHaE7?cb=iwc2&rs=1&pid=ImgDetMain"
     }
   ];
 

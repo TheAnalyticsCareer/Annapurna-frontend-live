@@ -373,7 +373,10 @@ a {
 }
 
 .header_button:hover {
-  background-color: #fff;
+  background-color: red;
+  color: white;
+  border: 4px solid red !important;
+
 }
 
 .header_button.phone {
@@ -381,6 +384,10 @@ a {
   flex-direction: column;
   align-items: center; /* or center if you want it centered */
   padding: -0.5rem 1rem;
+   background-color: white;
+    color: red;
+     border: 4px solid white !important;
+
 }
 
 .top-row {
@@ -389,15 +396,13 @@ a {
   gap: 0.5rem;
 }
 
-.response-rate {
-  font-size: 0.8rem;
-      display: flex;
-  color: gray;
 
-}
 
 .header_button.phone:hover {
-  background-color: #fff;
+  background-color: red;
+  color:white;
+  border: 4px solid red !important;
+  
 }
 
 .button-icon {

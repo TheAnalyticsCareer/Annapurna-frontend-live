@@ -742,13 +742,7 @@ product24: {
       price: "₹315 / Sq feet",
        category: "Glass",
       image: product26,
-      description: <ul>
-        <li>Unique durable design where profiles click into each other.</li>
-        <li>StepUp is made from inserting textile in to aluminium retainer.</li>
-        <li>Installed on the floor with ramps on all four sides.</li>
-         <li>Unlike conventional "use and throw" matting, only inserts need to be changed after its useful life making the system cheaper than the conventional matting.</li>
-         <li>Available in multiple of feet in length and width up to maximum of 10 feet on each side.</li>
-       </ul>,
+      description: "Sleek and modern aluminum slim glass partitions perfect for contemporary office spaces. These partitions provide excellent sound insulation while maintaining an open feel. The slim profile maximizes space efficiency without compromising on durability or functionality.",
       details: [
        { label: "Material", value: "Aluminium Acoustic" },
         { label: "Usage/Application", value: "All" },
@@ -767,9 +761,7 @@ product24: {
       price: "₹395 / Sq feet",
        category: "Glass",
       image: product27,
-      description: <ul> 
-        <li>Established in the year 1995 at Delhi, we, Annapurna Interiors Decorators & Furnitures are leading and paramount Wholesaler, Service provider, Exporter and Importer of Wooden Flooring, Laminate Flooring, Vinyl Flooring, Carpet Tiles, Aluminum Profiles, Engineered Wood, Wooden Flooring Pieces, Machine Tufted Carpets, Brazilian Flooring etc.</li> 
-      </ul>,
+      description: "High-performance acoustic glass partitions designed for office environments requiring sound control. These partitions combine aesthetic appeal with functional sound insulation, making them ideal for meeting rooms, executive offices, and open-plan workspaces.",
       details: [
         { label: "Thickness", value: "6mm" },
         { label: "Usage/Application", value: "Office" },
@@ -784,9 +776,7 @@ product24: {
       price: "₹350 / Sq feet",
        category: "Glass",
       image: product28,
-      description: <ul> 
-        <li>Established in the year 1995 at Delhi, we, Annapurna Interiors Decorators & Furnitures are leading and paramount Wholesaler, Service provider, Exporter and Importer of Wooden Flooring, Laminate Flooring, Vinyl Flooring, Carpet Tiles, Aluminum Profiles, Engineered Wood, Wooden Flooring Pieces, Machine Tufted Carpets, Brazilian Flooring etc.</li> 
-      </ul>,
+      description: "Premium transparent laminated glass partitions offering safety and security while maintaining visibility. The laminated construction provides additional strength and safety features, making these partitions ideal for high-traffic areas and security-conscious environments.",
       details: [
         { label: "Thickness", value: "6mm" },
         { label: "Usage/Application", value: "Office" },

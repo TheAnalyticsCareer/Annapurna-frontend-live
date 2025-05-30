@@ -207,7 +207,7 @@ const ProductCatalog = () => {
       name: "",
       phone: "",
       email: "",
-      price: "",
+      // price: "",
       pileHeight: "",
       material: "",
       style: "",
@@ -251,7 +251,7 @@ const ProductCatalog = () => {
   useEffect(() => {
     if (isModalOpen && currentProduct) {
       myFormik.setFieldValue("name", currentProduct.name);
-      myFormik.setFieldValue("price", currentProduct.price);
+      // myFormik.setFieldValue("price", currentProduct.price);
 
       const pileHeightDetail = currentProduct.details.find(
         (d) => d.label === "Pile Height"
@@ -822,7 +822,7 @@ product24: {
       <div className="product-catalog-product-content">
         <h3>{product.name}</h3>
         <p className="product-catalog-product-description">{product.description}</p>
-        <div className="product-catalog-product-price">{product.price}</div>
+{/*         <div className="product-catalog-product-price">{product.price}</div> */}
         <ul className="product-catalog-product-details">
           {product.details.map((detail, index) => (
             <li key={index}>
@@ -1022,7 +1022,7 @@ return (
           <p className="product-catalog-modal-description">
             {currentProduct.description}
           </p>
-          <div className="product-catalog-modal-price">{currentProduct.price}</div>
+{/*           <div className="product-catalog-modal-price">{currentProduct.price}</div> */}
           <ul className="product-catalog-modal-specs">
             {currentProduct.details.map((detail, index) => (
               <li key={index}>

@@ -175,6 +175,7 @@ import product30 from "./ProductCatalogimg/7-5-mm-Aluminium-HAT-Section-U-Channe
 import p12  from "./ProductCatalogimg/aluminum-screw-on-skirting.1f4e03167425769c24a3.pdf"
 import p11  from "./ProductCatalogimg/modular-skirting-illusion-recessed.a4be9904aa1083b71654.pdf"
 import p6  from "./ProductCatalogimg/welspun-carpet-tiles.21805a41007d1507da1f.pdf"
+import p7  from "./ProductCatalogimg/DALAAN Carpet Tiles.pdf"
 
 import p14  from "./ProductCatalogimg/american-red-oak-flooring.fc50bc809ae5f421e383.pdf"
 import p15  from "./ProductCatalogimg/wooden-flooring.f19a060ea4dd6aa1360f.pdf"
@@ -370,7 +371,7 @@ const ProductCatalog = () => {
       name: "Dalaan Carpet Tiles",
       price: "",
       image: product7,
-        
+         brochure: p7, 
      
       category: "carpetTile",
       description: "Our newly launched carpet tiles dalaan carpet tiles are one best and most premium carpet tiles. Cushioning also available on request",

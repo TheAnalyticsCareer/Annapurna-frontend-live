@@ -31,7 +31,8 @@ const images = [
   '/Recentproductsimg/27.jpg',
   '/Recentproductsimg/28.jpg',
   '/Recentproductsimg/29.jpg',
-
+'/Recentproductsimg/Batra.jpeg',
+'/Recentproductsimg/Batra2.jpeg',
 ];
 
 
@@ -158,6 +159,10 @@ const RecentProductsCarousel = () => {
             let overlayText = "Aluminium Glass Partitions and Carpets, Noida";
             if (originalIdx >= 20 && originalIdx <= 28) {
               overlayText = "Lux Kolkata";
+            }
+            // Set overlay for Batra and Batra2
+            if (originalIdx === 29 || originalIdx === 30) {
+              overlayText = "Batra house, Gurgaon";
             }
             return (
               <div
